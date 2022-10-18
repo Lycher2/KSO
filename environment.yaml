@@ -1,0 +1,18 @@
+name: crypto-prediction-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.8
+  - kedro
+  - ephem
+  - pystan
+  - fbprophet
+  - pandas
+  - yfinance
+  - streamlit
+  - plotly
+  - jupyter
+  - pip:
+      - kedro-viz
+      - kedro-telemetry
