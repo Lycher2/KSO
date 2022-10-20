@@ -26,8 +26,8 @@ def load_crypto_data(ticker:str):
 tickers = ["BTC-USD","ETH-USD"]
 ticker = st.selectbox("Select tickers", tickers)
 
-if "years_slider"not in st.session_state:
-    st.session_state.years_slider = 1
+if "months_slider"not in st.session_state:
+    st.session_state.months_slider = 1
 
 n_month = st.slider("months of prediction:", 1, 60, key="months_slider")
 period = n_month * 30
@@ -61,7 +61,7 @@ def make_prediction():
 
     prediction_progress.progress(20)
 
-    future = pred.make_future_dataframe(periods=365)
+    future = pred.make_future_dataframe(periods=period)
 
     prediction_progress.progress(40)
 
