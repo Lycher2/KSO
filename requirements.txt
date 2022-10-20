@@ -1,2 +1,8 @@
 pandas
 numpy
+streamlit
+yfinance
+datetime
+fbprophet
+fbprophet.plot
+plotly
