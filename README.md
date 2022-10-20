@@ -1,5 +1,5 @@
 # KSO
-#Crypto Market Predictions using facebook prophet and streamlit visualization
+# Crypto Market Predictions using facebook prophet and streamlit visualization
 cd into the root of the project directory and run conda env create --file environment.yaml
 This should automatically install all the required dependencies in a new conda environment.
 Then run conda activate stock-prediction-env
