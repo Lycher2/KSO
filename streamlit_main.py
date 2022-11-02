@@ -6,8 +6,8 @@
 import streamlit as st
 import yfinance as yf
 from datetime import date
-from fbprophet import Prophet
-from fbprophet.plot import plot_plotly
+from prophet import Prophet
+from prophet.plot import plot_plotly
 from plotly import graph_objects as go
 
 st.title("Facebook Prophet - Crypto Price Prediction")
