@@ -5,3 +5,8 @@ yfinance
 datetime
 fbprophet
 plotly
+python==3.8
+jupyter
+pystan
+ephem
+kedro
