@@ -1,7 +1,7 @@
 kedro
 ephem
 pystan
-fbprophet
+prophet
 pandas
 yfinance
 streamlit
