@@ -5,7 +5,7 @@ yfinance
 datetime
 fbprophet
 plotly
-python==3.8
+python
 jupyter
 pystan
 ephem
