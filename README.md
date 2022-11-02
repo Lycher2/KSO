@@ -1,5 +1,7 @@
 # KSO
 # Crypto Market Predictions using Facebook prophet and streamlit visualization
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]
 (https://lycher2-kso-streamlit-main-eocqf9.streamlitapp.com/)
 
 `cd` into the root of the project directory and run `conda env create --file environment.yaml`
